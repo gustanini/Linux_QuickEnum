@@ -66,6 +66,6 @@ runCommand "ls -la /etc/passwd"
 runCommand "find / -writable -type d 2>/dev/null"
 runCommand "find / -perm -4000 2>/dev/null"
 
-echo -e "${GREEN}""[CATEGORY] - Drives Information""${NC}"
+echo -e "${GREEN}"[CATEGORY] - Drives Information""${NC}"
 echo -e ""
 runCommand "cat /etc/fstab"
